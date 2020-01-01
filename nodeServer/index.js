@@ -10,8 +10,6 @@ var server = http.createServer(function(request,response){
 
 });
 //8080포트 서버실행
-//8080포트를 가진 서버실행한다.
-//
 server.listen(8080, function(){
     console.log('Server is running...');
 });
