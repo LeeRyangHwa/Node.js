@@ -5,9 +5,8 @@ var http = require('http');
 var server = http.createServer(function(request,response){
     response.writeHead(200, {'Content-Type':'text/html'});
     response.write('<h1>시작</h1>')
-    response.end('Hello node.js!!');
+    response.end('Hello node.js!');
     
-
 });
 //8080포트 서버실행
 server.listen(8080, function(){
